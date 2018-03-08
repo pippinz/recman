@@ -1,0 +1,31 @@
+/* template */
+.navbar-nav>.user-menu>.dropdown-menu>.user-footer {background-color:#ccc;}
+
+/* error field */
+.hide, hidden {display:none;}
+.red {
+	color: red;
+	}
+
+/* override breadcrumb background-color */
+.content-header>.breadcrumb>li>a {color:#3399CC;text-decoration:underline;}
+.content-header>.breadcrumb>li>a:hover {text-decoration:none;}
+.breadcrumb{background-color:#FFFFCD;}
+
+.hand {cursor: pointer; cursor: hand;}
+.btnbusy {
+	float:left;
+	width: 69px;height: 34px;
+	display: none;
+	vertical-align: bottom;
+	background: url(img/processing.gif) no-repeat 50% 50%;
+	border:1px dashed #00c0ef;border-radius:3px;
+	}
+
+.btninfo {float:left;width:auto;height:34px;margin-left:10px;margin-top:6px;color:#00c0ef;display:none;}
+.btnprocess {color:#3c8dbc;}
+.btnok {color:green;}
+.btnfailed {color:red;}
+
+.btn-primary-small {font-size:12px;margin:0px;}
+.box-black-topborder {border-top-color:#666;}
